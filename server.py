@@ -139,7 +139,7 @@ netflow_v9_field_types = {
     228: "postNAPTDestinationTransportPort",
 }
 
-delta = 20
+delta = 50
 ADbots_addr = "https://10.10.254.85"
 login_url = "/api/v1/login/"
 check_attack_url = "/api/v1/scrubbingenvironments/5/monitor/ads/events/"
@@ -219,7 +219,7 @@ def attack_valid(attack_infos):
     pass
 
 # 登录并启动中位清洗
-def start_middle_clean():
+def start_middle_clean(attack_infos):
     login()
     
     headers = {
@@ -229,12 +229,13 @@ def start_middle_clean():
         "advanced_config": {"10.10.249.89":[2]},
         "advanced_config_enable": True,
         "disposal_type": "ads_divert",
-        "dstip": ["10.10.250.204"],
-        "keep_time_seconds": 120,
+        "dstip": [ip for ip in attack_infos],
+        "keep_time_seconds": 500,
         "scrubbing_environment": 5
     }
     response = post(ADbots_addr+start_clean_url, headers = headers, json=body, cookies=cookies, verify = False)
     if(response.status_code == 200):
+        print(response.text)
         print("Start clean successfully")
         return True
     print(response.text)
@@ -256,7 +257,7 @@ def service_client(new_socket):
         if ret:
             path = ret
             path_name = parse.unquote(path)
-        if attack_valid(json.loads(data)) and start_middle_clean():
+        if attack_valid(json.loads(data)) and start_middle_clean(json.loads(data)):
             
             content = "HELP SUCCESS"
             # 准备发给浏览器的数据 -- header
@@ -281,4 +282,4 @@ while True:
     t = threading.Thread(target=service_client, args=(new_socket,))
     t.start()
             
-# start_middle_clean()
+# start_middle_clean(0)

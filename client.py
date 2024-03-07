@@ -17,7 +17,7 @@ login_url = "/api/v1/login/"
 check_attack_url = "/api/v1/scrubbingnodes/11/largescreen/mitigation/events/"
 token = ""
 cookies = {"sessionid":"sibryp4smkm9bacjhe2qlparm1dv3hbw"}
-delta_time = 10*60 # min
+delta_time = 7*60 # min
 
 # 比对时间并判断是否发生攻击
 def attacked_time(timestamp):

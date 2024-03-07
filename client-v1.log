@@ -1,0 +1,220 @@
+nohup: ignoring input
+<Sniffed: TCP:0 UDP:0 ICMP:0 Other:0>
+{}
+<Sniffed: TCP:0 UDP:0 ICMP:0 Other:0>
+{}
+<Sniffed: TCP:0 UDP:0 ICMP:0 Other:0>
+{}
+<Sniffed: TCP:0 UDP:0 ICMP:0 Other:0>
+{}
+<Sniffed: TCP:0 UDP:0 ICMP:0 Other:0>
+{}
+<Sniffed: TCP:0 UDP:0 ICMP:0 Other:0>
+{}
+<Sniffed: TCP:0 UDP:0 ICMP:0 Other:0>
+{}
+<Sniffed: TCP:0 UDP:0 ICMP:0 Other:0>
+{}
+<Sniffed: TCP:0 UDP:0 ICMP:0 Other:0>
+{}
+<Sniffed: TCP:0 UDP:0 ICMP:0 Other:0>
+{}
+<Sniffed: TCP:0 UDP:0 ICMP:0 Other:0>
+{}
+<Sniffed: TCP:0 UDP:0 ICMP:0 Other:0>
+{}
+<Sniffed: TCP:0 UDP:0 ICMP:0 Other:0>
+{}
+<Sniffed: TCP:0 UDP:0 ICMP:0 Other:0>
+{}
+<Sniffed: TCP:0 UDP:4 ICMP:0 Other:0>
+{'DstIP': '10.10.250.202', 'DstPort': '80', 'DstPortChanged': '0', 'AttackType': 'ACK Flood', 'BeginTime': '2024-03-07 15:56:41', 'EndTime': '--', 'Status': 'Begin', 'Flow': '254469248/2891696', 'Filter': '254469248/2891696|local|admin'}
+one valid found
+{'DstIP': '10.10.250.200', 'DstPort': '1669', 'DstPortChanged': '0', 'AttackType': 'UDP Flood', 'BeginTime': '2024-03-07 15:56:41', 'EndTime': '--', 'Status': 'Begin', 'Flow': '121251328/1378128', 'Filter': '121251328/1378128|local|admin'}
+one valid found
+{'src': '10.10.254.192', 'dst': '10.10.250.202', 'sport': '33426', 'dport': '80', 'flag': 'ACK_Protection'}
+{'src': '10.10.254.193', 'dst': '10.10.250.201', 'sport': '40994', 'dport': '1509', 'flag': 'UDP_Control_By_Dstip'}
+{'10.10.250.202': [{'start_time': '2024-03-07 15:56:41', 'attack_type': 'ACK Flood', 'total_bits': 254469248, 'total_packets': 2891696}], '10.10.250.200': [{'start_time': '2024-03-07 15:56:41', 'attack_type': 'UDP Flood', 'total_bits': 121251328, 'total_packets': 1378128}]}
+200 OK
+<Sniffed: TCP:0 UDP:0 ICMP:0 Other:0>
+{}
+<Sniffed: TCP:0 UDP:0 ICMP:0 Other:0>
+{}
+<Sniffed: TCP:0 UDP:3 ICMP:0 Other:0>
+{'DstIP': '10.10.250.200', 'DstPort': '1549', 'DstPortChanged': '1', 'AttackType': 'UDP Flood', 'BeginTime': '2024-03-07 15:56:41', 'EndTime': '--', 'Status': 'Ongoing', 'Flow': '286419584/3255040', 'Filter': '286419584/3255040|local|admin'}
+one valid found
+{'src': '10.10.254.193', 'dst': '10.10.250.201', 'sport': '27461', 'dport': '1828', 'flag': 'UDP_Control_By_Dstip'}
+{'src': '10.10.254.192', 'dst': '10.10.250.202', 'sport': '20173', 'dport': '80', 'flag': 'ACK_Protection'}
+{'10.10.250.200': [{'start_time': '2024-03-07 15:56:41', 'attack_type': 'UDP Flood', 'total_bits': 286419584, 'total_packets': 3255040}]}
+404 NOT FOUND
+<Sniffed: TCP:0 UDP:0 ICMP:0 Other:0>
+{}
+<Sniffed: TCP:0 UDP:0 ICMP:0 Other:0>
+{}
+<Sniffed: TCP:0 UDP:4 ICMP:0 Other:0>
+{'src': '10.10.254.193', 'dst': '10.10.250.201', 'sport': '62848', 'dport': '1703', 'flag': 'UDP_Control_By_Dstip'}
+{'src': '10.10.254.193', 'dst': '10.10.250.201', 'sport': '62851', 'dport': '1497', 'flag': 'UDP_Control_By_Dstip'}
+{'src': '10.10.254.192', 'dst': '10.10.250.201', 'sport': '62957', 'dport': '1343', 'flag': 'UDP_Control_By_Dstip'}
+{'Time': '2024-03-07', 'LogType': 'Attack', 'DstIP': '10.10.250.202', 'AttackType': 'ACK Flood', 'BeginTime': '2024-03-07', 'AttackFlow': '643414552', 'TopSrcIP': '10.10.254.193'}
+{}
+<Sniffed: TCP:0 UDP:0 ICMP:0 Other:0>
+{}
+<Sniffed: TCP:0 UDP:0 ICMP:0 Other:0>
+{}
+<Sniffed: TCP:0 UDP:3 ICMP:0 Other:0>
+{'src': '10.10.254.192', 'dst': '10.10.250.201', 'sport': '43190', 'dport': '1491', 'flag': 'UDP_Control_By_Dstip'}
+{'src': '10.10.254.192', 'dst': '10.10.250.201', 'sport': '43187', 'dport': '1104', 'flag': 'UDP_Control_By_Dstip'}
+{'src': '10.10.254.192', 'dst': '10.10.250.201', 'sport': '43186', 'dport': '1664', 'flag': 'UDP_Control_By_Dstip'}
+{}
+<Sniffed: TCP:0 UDP:0 ICMP:0 Other:0>
+{}
+<Sniffed: TCP:0 UDP:0 ICMP:0 Other:0>
+{}
+<Sniffed: TCP:0 UDP:4 ICMP:0 Other:0>
+{'src': '10.10.254.193', 'dst': '10.10.250.201', 'sport': '36707', 'dport': '1252', 'flag': 'UDP_Control_By_Dstip'}
+{'src': '10.10.254.192', 'dst': '10.10.250.201', 'sport': '36885', 'dport': '1214', 'flag': 'UDP_Control_By_Dstip'}
+{'src': '10.10.254.192', 'dst': '10.10.250.201', 'sport': '36884', 'dport': '1596', 'flag': 'UDP_Control_By_Dstip'}
+{'Time': '2024-03-07', 'LogType': 'Attack', 'DstIP': '10.10.250.201', 'AttackType': 'UDP Flood', 'BeginTime': '2024-03-07', 'AttackFlow': '1302032424', 'TopSrcIP': '10.10.254.192;10.10.254.193'}
+{}
+<Sniffed: TCP:0 UDP:0 ICMP:0 Other:0>
+{}
+<Sniffed: TCP:0 UDP:0 ICMP:0 Other:0>
+{}
+<Sniffed: TCP:0 UDP:4 ICMP:0 Other:0>
+{'DstIP': '10.10.250.203', 'DstPort': '80', 'DstPortChanged': '0', 'AttackType': 'SYN Flood', 'BeginTime': '2024-03-07 15:59:11', 'EndTime': '--', 'Status': 'Begin', 'Flow': '203200/3175', 'Filter': '203200/3175|local|admin'}
+one valid found
+{'DstIP': '10.10.250.203', 'DstPort': '80', 'DstPortChanged': '0', 'AttackType': 'ACK Flood', 'BeginTime': '2024-03-07 15:59:11', 'EndTime': '--', 'Status': 'Begin', 'Flow': '1132/16', 'Filter': '1132/16|local|admin'}
+one valid found
+{'src': '10.10.254.194', 'dst': '10.10.250.203', 'sport': '3747', 'dport': '80', 'flag': 'SYN_Time_Sequence_Check'}
+{'src': '10.10.254.194', 'dst': '10.10.250.203', 'sport': '3740', 'dport': '25', 'flag': 'ACK_Protection'}
+{'10.10.250.203': [{'start_time': '2024-03-07 15:59:11', 'attack_type': 'SYN Flood', 'total_bits': 203200, 'total_packets': 3175}, {'start_time': '2024-03-07 15:59:11', 'attack_type': 'ACK Flood', 'total_bits': 1132, 'total_packets': 16}]}
+200 OK
+<Sniffed: TCP:0 UDP:0 ICMP:0 Other:0>
+{}
+<Sniffed: TCP:0 UDP:0 ICMP:0 Other:0>
+{}
+<Sniffed: TCP:0 UDP:4 ICMP:0 Other:0>
+{'src': '10.10.254.193', 'dst': '10.10.250.201', 'sport': '40822', 'dport': '1734', 'flag': 'UDP_Control_By_Dstip'}
+{'src': '10.10.254.193', 'dst': '10.10.250.201', 'sport': '40817', 'dport': '1673', 'flag': 'UDP_Control_By_Dstip'}
+{'src': '10.10.254.193', 'dst': '10.10.250.201', 'sport': '40835', 'dport': '1848', 'flag': 'UDP_Control_By_Dstip'}
+{'Time': '2024-03-07', 'LogType': 'Attack', 'DstIP': '10.10.250.201', 'AttackType': 'UDP Flood', 'BeginTime': '2024-03-07', 'AttackFlow': '1803711536', 'TopSrcIP': '10.10.254.192;10.10.254.193'}
+{}
+<Sniffed: TCP:0 UDP:0 ICMP:0 Other:0>
+{}
+<Sniffed: TCP:0 UDP:0 ICMP:0 Other:0>
+{}
+<Sniffed: TCP:0 UDP:4 ICMP:0 Other:0>
+{'src': '10.10.254.192', 'dst': '10.10.250.201', 'sport': '33933', 'dport': '1763', 'flag': 'UDP_Control_By_Dstip'}
+{'src': '10.10.254.192', 'dst': '10.10.250.201', 'sport': '33927', 'dport': '1699', 'flag': 'UDP_Control_By_Dstip'}
+{'src': '10.10.254.192', 'dst': '10.10.250.201', 'sport': '33929', 'dport': '1461', 'flag': 'UDP_Control_By_Dstip'}
+{'Time': '2024-03-07', 'LogType': 'Attack', 'DstIP': '10.10.250.201', 'AttackType': 'UDP Flood', 'BeginTime': '2024-03-07', 'AttackFlow': '2054293384', 'TopSrcIP': '10.10.254.192;10.10.254.193'}
+{}
+<Sniffed: TCP:0 UDP:0 ICMP:0 Other:0>
+{}
+<Sniffed: TCP:0 UDP:0 ICMP:0 Other:0>
+{}
+<Sniffed: TCP:0 UDP:0 ICMP:0 Other:0>
+{}
+<Sniffed: TCP:0 UDP:0 ICMP:0 Other:0>
+{}
+<Sniffed: TCP:0 UDP:0 ICMP:0 Other:0>
+{}
+<Sniffed: TCP:0 UDP:2 ICMP:0 Other:0>
+{'src': '10.10.254.192', 'dst': '10.10.250.201', 'sport': '35807', 'dport': '1778', 'flag': 'UDP_Control_By_Dstip'}
+{'src': '10.10.254.192', 'dst': '10.10.250.201', 'sport': '35768', 'dport': '1808', 'flag': 'UDP_Control_By_Dstip'}
+{}
+<Sniffed: TCP:0 UDP:0 ICMP:0 Other:0>
+{}
+<Sniffed: TCP:0 UDP:0 ICMP:0 Other:0>
+{}
+<Sniffed: TCP:0 UDP:4 ICMP:0 Other:0>
+{'src': '10.10.254.193', 'dst': '10.10.250.201', 'sport': '21829', 'dport': '1092', 'flag': 'UDP_Control_By_Dstip'}
+{'src': '10.10.254.193', 'dst': '10.10.250.201', 'sport': '21822', 'dport': '1872', 'flag': 'UDP_Control_By_Dstip'}
+{'src': '10.10.254.193', 'dst': '10.10.250.201', 'sport': '21826', 'dport': '1228', 'flag': 'UDP_Control_By_Dstip'}
+{'Time': '2024-03-07', 'LogType': 'Attack', 'DstIP': '10.10.250.201', 'AttackType': 'UDP Flood', 'BeginTime': '2024-03-07', 'AttackFlow': '2806304336', 'TopSrcIP': '10.10.254.192;10.10.254.193'}
+{}
+<Sniffed: TCP:0 UDP:0 ICMP:0 Other:0>
+{}
+<Sniffed: TCP:0 UDP:0 ICMP:0 Other:0>
+{}
+<Sniffed: TCP:0 UDP:3 ICMP:0 Other:0>
+{'DstIP': '10.10.250.202', 'DstPort': '80', 'DstPortChanged': '0', 'AttackType': 'ACK Flood', 'BeginTime': '2024-03-07 15:56:41', 'EndTime': '2024-03-07 15:58:11', 'Status': 'End', 'Flow': '643414552/7311525', 'Filter': '643414552/7311525|local|admin'}
+{'src': '10.10.254.193', 'dst': '10.10.250.201', 'sport': '21829', 'dport': '1092', 'flag': 'UDP_Control_By_Dstip'}
+{'src': '10.10.254.193', 'dst': '10.10.250.201', 'sport': '21822', 'dport': '1872', 'flag': 'UDP_Control_By_Dstip'}
+{}
+<Sniffed: TCP:0 UDP:0 ICMP:0 Other:0>
+{}
+<Sniffed: TCP:0 UDP:0 ICMP:0 Other:0>
+{}
+<Sniffed: TCP:0 UDP:0 ICMP:0 Other:0>
+{}
+<Sniffed: TCP:0 UDP:0 ICMP:0 Other:0>
+{}
+<Sniffed: TCP:0 UDP:0 ICMP:0 Other:0>
+{}
+<Sniffed: TCP:0 UDP:0 ICMP:0 Other:0>
+{}
+<Sniffed: TCP:0 UDP:0 ICMP:0 Other:0>
+{}
+<Sniffed: TCP:0 UDP:0 ICMP:0 Other:0>
+{}
+<Sniffed: TCP:0 UDP:1 ICMP:0 Other:0>
+{'DstIP': '10.10.250.203', 'DstPort': '80', 'DstPortChanged': '0', 'AttackType': 'SYN Flood', 'BeginTime': '2024-03-07 15:59:11', 'EndTime': '2024-03-07 15:59:41', 'Status': 'End', 'Flow': '203200/3175', 'Filter': '203200/3175|local|admin'}
+{}
+<Sniffed: TCP:0 UDP:0 ICMP:0 Other:0>
+{}
+<Sniffed: TCP:0 UDP:0 ICMP:0 Other:0>
+{}
+<Sniffed: TCP:0 UDP:0 ICMP:0 Other:0>
+{}
+<Sniffed: TCP:0 UDP:0 ICMP:0 Other:0>
+{}
+<Sniffed: TCP:0 UDP:0 ICMP:0 Other:0>
+{}
+<Sniffed: TCP:0 UDP:0 ICMP:0 Other:0>
+{}
+<Sniffed: TCP:0 UDP:0 ICMP:0 Other:0>
+{}
+<Sniffed: TCP:0 UDP:0 ICMP:0 Other:0>
+{}
+<Sniffed: TCP:0 UDP:0 ICMP:0 Other:0>
+{}
+<Sniffed: TCP:0 UDP:0 ICMP:0 Other:0>
+{}
+<Sniffed: TCP:0 UDP:0 ICMP:0 Other:0>
+{}
+<Sniffed: TCP:0 UDP:0 ICMP:0 Other:0>
+{}
+<Sniffed: TCP:0 UDP:0 ICMP:0 Other:0>
+{}
+<Sniffed: TCP:0 UDP:0 ICMP:0 Other:0>
+{}
+<Sniffed: TCP:0 UDP:0 ICMP:0 Other:0>
+{}
+<Sniffed: TCP:0 UDP:0 ICMP:0 Other:0>
+{}
+<Sniffed: TCP:0 UDP:0 ICMP:0 Other:0>
+{}
+<Sniffed: TCP:0 UDP:0 ICMP:0 Other:0>
+{}
+<Sniffed: TCP:0 UDP:0 ICMP:0 Other:0>
+{}
+<Sniffed: TCP:0 UDP:0 ICMP:0 Other:0>
+{}
+<Sniffed: TCP:0 UDP:0 ICMP:0 Other:0>
+{}
+<Sniffed: TCP:0 UDP:1 ICMP:0 Other:0>
+{'DstIP': '10.10.250.200', 'DstPort': '1910', 'DstPortChanged': '1', 'AttackType': 'UDP Flood', 'BeginTime': '2024-03-07 15:56:41', 'EndTime': '2024-03-07 16:03:11', 'Status': 'End', 'Flow': '332332880/3778339', 'Filter': '332332880/3778339|local|admin'}
+{}
+<Sniffed: TCP:0 UDP:0 ICMP:0 Other:0>
+{}
+<Sniffed: TCP:0 UDP:0 ICMP:0 Other:0>
+{}
+<Sniffed: TCP:0 UDP:0 ICMP:0 Other:0>
+{}
+<Sniffed: TCP:0 UDP:0 ICMP:0 Other:0>
+{}
+<Sniffed: TCP:0 UDP:0 ICMP:0 Other:0>
+{}
+<Sniffed: TCP:0 UDP:0 ICMP:0 Other:0>
+{}
